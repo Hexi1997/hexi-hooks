@@ -1,0 +1,26 @@
+{
+  "name": "hexi-hooks",
+  "version": "1.0.0",
+  "description": "React hooks utils created by Hexi",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hexi1997/hexi-hooks.git"
+  },
+  "keywords": [
+    "hooks",
+    "react"
+  ],
+  "author": "Hexi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hexi1997/hexi-hooks/issues"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6 || ^17.0"
+  },
+  "homepage": "https://github.com/Hexi1997/hexi-hooks#readme"
+}
