@@ -1,6 +1,6 @@
 {
   "name": "hexi-hooks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React hooks utils created by Hexi",
   "main": "index.ts",
   "scripts": {
