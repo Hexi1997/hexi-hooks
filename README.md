@@ -5,29 +5,29 @@
 Install dependencies,
 
 ```bash
-$ npm i
+$ yarn add hexi-hooks
 ```
 
-Start the dev server,
+## Demo
 
-```bash
-$ npm start
-```
-
-Build documentation,
-
-```bash
-$ npm run docs:build
-```
-
-Run test,
-
-```bash
-$ npm test
-```
-
-Build library via `father`,
-
-```bash
-$ npm run build
+```tsx
+import React from 'react';
+import hooks from 'hexi-hooks';
+const { useTimeCountDown } = hooks;
+const endDate = new Date('2022-12-16 11:00:00 GMT+0800').getTime();
+export default () => {
+  const { leftDays, leftHours, leftMinutes, leftSeconds, isOutOfDate } = useTimeCountDown(
+    endDate,
+    1000,
+  );
+  return (
+    <div>
+      <div>
+        {leftDays} days {leftHours} hours {leftMinutes} mins {leftSeconds} secs left
+      </div>
+      <br />
+      <div>is out of date: {String(isOutOfDate)}</div>
+    </div>
+  );
+};
 ```
