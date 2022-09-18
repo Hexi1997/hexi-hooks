@@ -1,1 +1,2 @@
-export { default as Foo } from './Foo';
+import hooks from './hooks';
+export default hooks;
